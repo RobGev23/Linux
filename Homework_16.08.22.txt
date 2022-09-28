@@ -1,0 +1,7 @@
+   0 mkdir -p tmp/file.txt
+   1 echo "Hallo student" >> file.txt
+   2 cat /etc/group >> file.txt
+   3 cat /etc/group | df -h | tail -1 >> file.txt
+   4 cat /etc/group | history | wc >> file.txt
+   5 cat file.txt
+   6 history > /tmp/file.txt
